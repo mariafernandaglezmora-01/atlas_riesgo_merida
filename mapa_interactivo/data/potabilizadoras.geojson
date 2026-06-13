@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "potabilizadoras",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "LabelID": -1, "CVE_RHA": "XII", "RHA": "Península de Yucatán", "CVE_ENT": "31", "ENTIDAD": "Yucatán", "CVE_MUN": "050", "MUN": "Mérida", "CAP_INST": 560, "CAP_POT": 400, "PLANTA": "Mérida III", "ANIO": 2023 }, "geometry": { "type": "Point", "coordinates": [ -89.778333329999953, 20.975222220631398, 0.0 ] } },
+{ "type": "Feature", "properties": { "LabelID": -1, "CVE_RHA": "XII", "RHA": "Península de Yucatán", "CVE_ENT": "31", "ENTIDAD": "Yucatán", "CVE_MUN": "050", "MUN": "Mérida", "CAP_INST": 1375, "CAP_POT": 1200, "PLANTA": "Mérida I", "ANIO": 2023 }, "geometry": { "type": "Point", "coordinates": [ -89.596777779999968, 20.846805560628276, 0.0 ] } },
+{ "type": "Feature", "properties": { "LabelID": -1, "CVE_RHA": "XII", "RHA": "Península de Yucatán", "CVE_ENT": "31", "ENTIDAD": "Yucatán", "CVE_MUN": "050", "MUN": "Mérida", "CAP_INST": 550, "CAP_POT": 400, "PLANTA": "Mérida II", "ANIO": 2023 }, "geometry": { "type": "Point", "coordinates": [ -89.69233332999994, 20.885250000629167, 0.0 ] } },
+{ "type": "Feature", "properties": { "LabelID": -1, "CVE_RHA": "XII", "RHA": "Península de Yucatán", "CVE_ENT": "31", "ENTIDAD": "Yucatán", "CVE_MUN": "050", "MUN": "Mérida", "CAP_INST": 1050, "CAP_POT": 935, "PLANTA": "Mérida IV", "ANIO": 2023 }, "geometry": { "type": "Point", "coordinates": [ -89.562916669999936, 20.963694440631112, 0.0 ] } }
+]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.36.0-Maidenhead">
+  <identifier>c31_1_01_rfracturamiento_atlas_2020</identifier>
+  <parentidentifier></parentidentifier>
+  <language>SPA</language>
+  <type>dataset</type>
+  <title>c31_1_01_rfracturamiento_atlas_2020</title>
+  <abstract>La capa contiene la clasificación de la clase de fracturamiento del subsuelo en la Zona Metropolitana de Mérida, conforme al Atlas de Peligros Naturales del Estado de Yucatán publicado en 2020. Representa zonas con distinta intensidad de fracturamiento geológico, lo cual influye en la vulnerabilidad del terreno ante fenómenos como hundimientos, colapsos, infiltración acelerada y riesgo estructural. Este insumo es útil para estudios de riesgo geológico, planeación territorial, regulación de uso de suelo y obras de infraestructura, así como para el diseño de estrategias de prevención. La proyección utilizada es EPSG:6372 (México ITRF2008 / LCC), cumpliendo con los criterios de homologación de información territorial de SEDATU.
+
+Clase de fracturamiento del subsuelo en la Zona Metropolitana de Mérida</abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>fracturamiento</keyword>
+    <keyword>riesgo geológico</keyword>
+    <keyword>Atlas de Peligros</keyword>
+    <keyword>Yucatán</keyword>
+    <keyword>2020</keyword>
+    <keyword>colapsos</keyword>
+    <keyword>hundimientos</keyword>
+    <keyword>vulnerabilidad</keyword>
+    <keyword>ZMM</keyword>
+  </keywords>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <rights>Gobierno del Estado de Yucatán (2020). Atlas de Peligros Naturales del Estado de Yucatán. </rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["Mexico ITRF2008 / LCC",BASEGEOGCRS["Mexico ITRF2008",DATUM["Mexico ITRF2008",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",6365]],CONVERSION["Mexico LCC",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",12,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-102,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",17.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",29.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",2500000,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Mexico - onshore and offshore."],BBOX[12.1,-122.19,32.72,-84.64]],ID["EPSG",6372]]</wkt>
+      <proj4>+proj=lcc +lat_0=12 +lon_0=-102 +lat_1=17.5 +lat_2=29.5 +x_0=2500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>28799</srsid>
+      <srid>6372</srid>
+      <authid>EPSG:6372</authid>
+      <description>Mexico ITRF2008 / LCC</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial crs="EPSG:6372" maxx="-89.24027900000000102" minz="0" maxz="0" dimensions="2" minx="-90.295929000000001" miny="20.58393399999999929" maxy="21.39229900000000129"/>
+  </extent>
+</qgis>

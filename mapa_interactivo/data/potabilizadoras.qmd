@@ -1,0 +1,41 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.36.0-Maidenhead">
+  <identifier>c31_1_01_planta_potabi_conagua_2023</identifier>
+  <parentidentifier></parentidentifier>
+  <language>SPA</language>
+  <type>dataset</type>
+  <title>c31_1_01_planta_potabi_conagua_2023</title>
+  <abstract>La capa contiene la localización puntual de las plantas potabilizadoras registradas en la Zona Metropolitana de Mérida, con base en información oficial de la Comisión Nacional del Agua (CONAGUA) correspondiente al año 2023. Estas instalaciones forman parte del sistema de infraestructura hidráulica encargada del tratamiento y suministro de agua para consumo humano. Este insumo es fundamental para el análisis de cobertura de servicios hídricos, planeación de infraestructura básica, evaluación de la eficiencia del sistema de abastecimiento y diseño de políticas de sostenibilidad hídrica a escala metropolitana. La proyección utilizada es EPSG:6372 (México ITRF2008 / LCC), en cumplimiento con los criterios de homologación de información territorial de SEDATU.
+
+Ubicación de plantas potabilizadoras de agua en la Zona Metropolitana de Mérida.</abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>planta potabilizadora</keyword>
+    <keyword>agua potable</keyword>
+    <keyword>tratamiento</keyword>
+    <keyword>abastecimiento</keyword>
+    <keyword>Zona Metropolitana de Mérida</keyword>
+    <keyword>ZMM</keyword>
+    <keyword>servicios básicos</keyword>
+  </keywords>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <rights>CONAGUA (2023). Registro Nacional de Infraestructura Hidráulica. Plantas Potabilizadoras de Agua.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["Mexico ITRF2008 / LCC",BASEGEOGCRS["Mexico ITRF2008",DATUM["Mexico ITRF2008",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",6365]],CONVERSION["Mexico LCC",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",12,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-102,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",17.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",29.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",2500000,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Mexico - onshore and offshore."],BBOX[12.1,-122.19,32.72,-84.64]],ID["EPSG",6372]]</wkt>
+      <proj4>+proj=lcc +lat_0=12 +lon_0=-102 +lat_1=17.5 +lat_2=29.5 +x_0=2500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>28799</srsid>
+      <srid>6372</srid>
+      <authid>EPSG:6372</authid>
+      <description>Mexico ITRF2008 / LCC</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minx="-89.78859400000000335" dimensions="2" maxz="0" maxy="20.98108799999999974" minz="0" crs="EPSG:6372" maxx="-89.56291699999999878" miny="20.84493900000000011"/>
+  </extent>
+</qgis>

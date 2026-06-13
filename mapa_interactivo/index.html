@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Atlas Geoespacial de Riesgos | ZM Mérida</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/mapa.css" />
+</head>
+
+<body>
+
+<header>
+  <div>
+    <p>Atlas Digital de Riesgos, Agua y Transformación Territorial</p>
+    <h1>Plataforma Geoespacial para la Gestión Integral del Riesgo y el Agua</h1>
+    <span>Zona Metropolitana de Mérida</span>
+  </div>
+</header>
+
+<main>
+  <aside id="panel">
+    <h2>Capas temáticas</h2>
+
+    <details open>
+      <summary>Base territorial</summary>
+      <label><input type="checkbox" id="limites_zmm" checked> Delimitación ZMM</label>
+      <label><input type="checkbox" id="municipios" checked> Municipios</label>
+    </details>
+
+    <details>
+      <summary>Riesgos geológicos</summary>
+      <label><input type="checkbox" id="fracturamiento"> Grado de fracturamiento</label>
+      <label><input type="checkbox" id="geomorfologia"> Geomorfología</label>
+      <label><input type="checkbox" id="zonas_karsticas"> Zonas kársticas</label>
+      <label><input type="checkbox" id="cenotes"> Cenotes</label>
+    </details>
+
+    <details>
+      <summary>Riesgos hidrometeorológicos</summary>
+      <label><input type="checkbox" id="riesgo_inundacion"> Riesgo por inundación</label>
+      <label><input type="checkbox" id="trayectoria_tormenta"> Trayectorias históricas</label>
+      <label><input type="checkbox" id="frecuencia_ciclon"> Frecuencia de ciclones</label>
+    </details>
+
+    <details>
+      <summary>Riesgos químico-tecnológicos</summary>
+      <label><input type="checkbox" id="gaseras_industrias"> Gaseras e industrias peligrosas</label>
+      <label><input type="checkbox" id="gasoductos"> Gasoductos</label>
+      <label><input type="checkbox" id="lineas_alta"> Líneas de transmisión</label>
+      <label><input type="checkbox" id="banco_material"> Bancos de material</label>
+      <label><input type="checkbox" id="usos_contaminantes"> Usos contaminantes</label>
+    </details>
+
+    <details>
+      <summary>Sistema hídrico subterráneo</summary>
+      <label><input type="checkbox" id="tiraderos"> Sitios de disposición final</label>
+      <label><input type="checkbox" id="ptar"> Plantas de tratamiento</label>
+      <label><input type="checkbox" id="potabilizadoras"> Plantas potabilizadoras</label>
+      <label><input type="checkbox" id="corredores"> Corredores económicos</label>
+      <label><input type="checkbox" id="intrusion_marina"> Zonas con intrusión marina</label>
+      <label><input type="checkbox" id="drenaje"> Viviendas con drenaje</label>
+    </details>
+
+    <details>
+      <summary>Vulnerabilidad social</summary>
+      <label><input type="checkbox" id="marginacion"> Marginación</label>
+      <label><input type="checkbox" id="hacinamiento"> Hacinamiento</label>
+    </details>
+
+    <details>
+      <summary>Transformación territorial</summary>
+      <label><input type="checkbox" id="urbano_2000"> Urbano 2000</label>
+      <label><input type="checkbox" id="urbano_2010"> Urbano 2010</label>
+      <label><input type="checkbox" id="urbano_2020"> Urbano 2020</label>
+      <label><input type="checkbox" id="urbano_2030"> Urbano 2030</label>
+      <label><input type="checkbox" id="urbano_2040"> Urbano 2040</label>
+      <label><input type="checkbox" id="urbano_2050"> Urbano 2050</label>
+    </details>
+    
+  </aside>
+
+  <section id="map"></section>
+  <div id="control-tiempo">
+  <div class="control-tiempo-header">
+    <strong>Expansión urbana</strong>
+    <span id="anio-urbano">2000</span>
+  </div>
+
+  <div id="info-panel">
+    <h3>Información temática</h3>
+
+    <div id="info-content">
+
+        <p>
+        Seleccione una capa para visualizar
+        su descripción e interpretación.
+        </p>
+
+    </div>
+</div>
+
+  <input
+    type="range"
+    id="slider-urbano"
+    min="0"
+    max="5"
+    step="1"
+    value="0"
+  >
+
+  <div class="marcas-tiempo">
+    <span>2000</span>
+    <span>2010</span>
+    <span>2020</span>
+    <span>2030</span>
+    <span>2040</span>
+    <span>2050</span>
+  </div>
+</div>
+  
+</main>
+
+<div id="leyenda">
+  <h3>Simbología</h3>
+  <div id="leyenda-contenido">Activa una capa temática para visualizar su simbología.</div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/georaster"></script>
+<script src="https://unpkg.com/georaster-layer-for-leaflet"></script>
+<script src="js/mapa.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.36.0-Maidenhead">
+  <identifier>c31_1_01_marginacion_conapo_2020</identifier>
+  <parentidentifier></parentidentifier>
+  <language>SPA</language>
+  <type>dataset</type>
+  <title>c31_1_01_marginacion_conapo_2020</title>
+  <abstract>La capa representa en puntos el grado de marginación para cada municipio de la Zona Metropolitana de Mérida, con base en la información publicada por el Consejo Nacional de Población (CONAPO) en 2020. Cada punto corresponde al centroide del municipio y está clasificado en alguno de los cinco niveles establecidos por CONAPO: Muy bajo, Bajo, Medio, Alto y Muy alto, de acuerdo con indicadores de rezago educativo, acceso a servicios básicos, condiciones de vivienda, ingresos y dispersión poblacional. Este insumo es útil para la identificación de desigualdades territoriales, priorización de políticas públicas, análisis de vulnerabilidad social y planeación del desarrollo con enfoque de equidad territorial.
+
+Grado de marginación por municipio en la Zona Metropolitana de Mérida 2020.</abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>marginación</keyword>
+    <keyword>grado de marginación</keyword>
+    <keyword>desigualdad territorial</keyword>
+    <keyword>planeación social</keyword>
+    <keyword>vulnerabilidad</keyword>
+  </keywords>
+  <links/>
+  <dates/>
+  <fees></fees>
+  <rights>Consejo Nacional de Población (CONAPO), 2020. Índice y Grado de Marginación a Nivel Municipal.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["Mexico ITRF2008 / LCC",BASEGEOGCRS["Mexico ITRF2008",DATUM["Mexico ITRF2008",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",6365]],CONVERSION["Mexico LCC",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",12,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-102,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",17.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",29.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",2500000,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["northing (N)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (E)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (small scale)."],AREA["Mexico - onshore and offshore."],BBOX[12.1,-122.19,32.72,-84.64]],ID["EPSG",6372]]</wkt>
+      <proj4>+proj=lcc +lat_0=12 +lon_0=-102 +lat_1=17.5 +lat_2=29.5 +x_0=2500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>28799</srsid>
+      <srid>6372</srid>
+      <authid>EPSG:6372</authid>
+      <description>Mexico ITRF2008 / LCC</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minx="-90.04768300000000636" dimensions="2" maxz="0" maxy="21.26633500000000154" minz="0" crs="EPSG:6372" maxx="-89.3372449999999958" miny="20.74917999999999907"/>
+  </extent>
+</qgis>

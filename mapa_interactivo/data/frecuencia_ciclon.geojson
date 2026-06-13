@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "frecuencia_ciclon",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID_1": 1, "CVEGEO": "31100", "CVE_ENT": "31", "CVE_MUN": "100", "NOMGEO": "Ucú", "FR_CICLON": "Medio", "Inundacion": "Medio con marea" }, "geometry": { "type": "Point", "coordinates": [ -89.779872261734042, 21.062934953949526 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 2, "CVEGEO": "31002", "CVE_ENT": "31", "CVE_MUN": "002", "NOMGEO": "Acanceh", "FR_CICLON": "Muy bajo", "Inundacion": "Medio" }, "geometry": { "type": "Point", "coordinates": [ -89.470558703189724, 20.842679201253251 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 3, "CVEGEO": "31093", "CVE_ENT": "31", "CVE_MUN": "093", "NOMGEO": "Tixkokob", "FR_CICLON": "Bajo", "Inundacion": "Medio" }, "geometry": { "type": "Point", "coordinates": [ -89.376027918799153, 20.978737711302248 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 4, "CVEGEO": "31059", "CVE_ENT": "31", "CVE_MUN": "059", "NOMGEO": "Progreso", "FR_CICLON": "Alto", "Inundacion": "Alto con marea" }, "geometry": { "type": "Point", "coordinates": [ -89.668732722135005, 21.228048628769223 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 5, "CVEGEO": "31101", "CVE_ENT": "31", "CVE_MUN": "101", "NOMGEO": "Umán", "FR_CICLON": "Medio", "Inundacion": "Alto" }, "geometry": { "type": "Point", "coordinates": [ -89.764605272124541, 20.853138476861911 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 6, "CVEGEO": "31038", "CVE_ENT": "31", "CVE_MUN": "038", "NOMGEO": "Hunucmá", "FR_CICLON": "Medio", "Inundacion": "Medio con marea" }, "geometry": { "type": "Point", "coordinates": [ -90.022209226075589, 21.09906203564886 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 7, "CVEGEO": "31041", "CVE_ENT": "31", "CVE_MUN": "041", "NOMGEO": "Kanasín", "FR_CICLON": "Bajo", "Inundacion": "Medio" }, "geometry": { "type": "Point", "coordinates": [ -89.539660202425551, 20.919862539279809 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 8, "CVEGEO": "31090", "CVE_ENT": "31", "CVE_MUN": "090", "NOMGEO": "Timucuy", "FR_CICLON": "Bajo", "Inundacion": "Medio" }, "geometry": { "type": "Point", "coordinates": [ -89.535527816414543, 20.766778828015322 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 9, "CVEGEO": "31013", "CVE_ENT": "31", "CVE_MUN": "013", "NOMGEO": "Conkal", "FR_CICLON": "Medio", "Inundacion": "Alto" }, "geometry": { "type": "Point", "coordinates": [ -89.513769969995508, 21.082112850435308 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 10, "CVEGEO": "31020", "CVE_ENT": "31", "CVE_MUN": "020", "NOMGEO": "Chicxulub Pueblo", "FR_CICLON": "Alto", "Inundacion": "Alto" }, "geometry": { "type": "Point", "coordinates": [ -89.526741993033994, 21.15072987841981 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 11, "CVEGEO": "31050", "CVE_ENT": "31", "CVE_MUN": "050", "NOMGEO": "Mérida", "FR_CICLON": "Bajo", "Inundacion": "Medio" }, "geometry": { "type": "Point", "coordinates": [ -89.639915197017473, 20.980359994142574 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 12, "CVEGEO": "31039", "CVE_ENT": "31", "CVE_MUN": "039", "NOMGEO": "Ixil", "FR_CICLON": "Muy alto", "Inundacion": "Alto con marea" }, "geometry": { "type": "Point", "coordinates": [ -89.473495991752785, 21.237674316280895 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 13, "CVEGEO": "31063", "CVE_ENT": "31", "CVE_MUN": "063", "NOMGEO": "Samahil", "FR_CICLON": "Medio", "Inundacion": "Alto" }, "geometry": { "type": "Point", "coordinates": [ -89.911821739507005, 20.827844233835666 ] } },
+{ "type": "Feature", "properties": { "OBJECTID_1": 14, "CVEGEO": "31095", "CVE_ENT": "31", "CVE_MUN": "095", "NOMGEO": "Tixpéual", "FR_CICLON": "Bajo", "Inundacion": "Medio" }, "geometry": { "type": "Point", "coordinates": [ -89.431744346979485, 20.944291235582824 ] } }
+]
+}

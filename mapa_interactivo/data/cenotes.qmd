@@ -1,0 +1,41 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.36.0-Maidenhead">
+  <identifier>c31_1_01_cenotes_sds_2023</identifier>
+  <parentidentifier></parentidentifier>
+  <language>SPA</language>
+  <type>dataset</type>
+  <title>c31_1_01_cenotes_sds_2023</title>
+  <abstract>La capa contiene la ubicación geográfica en puntos de los cenotes identificados dentro de la Zona Metropolitana de Mérida, de acuerdo con el inventario oficial publicado por la Secretaría de Desarrollo Sustentable (SDS) del Gobierno del Estado de Yucatán en 2023. Los cenotes son formaciones naturales de gran relevancia hidrogeológica, ecológica y cultural, y esta información es clave para la gestión del agua subterránea, la conservación del patrimonio natural, la prevención de riesgos geológicos, y la incorporación de criterios ambientales en el ordenamiento territorial. La proyección utilizada es EPSG:6372 (México ITRF2008 / LCC), conforme a los criterios de homologación de información territorial de SEDATU.
+
+Localización puntual de cenotes en la Zona Metropolitana de Mérida, registrada por la Secretaría de Desarrollo Sustentable (SDS) del Gobierno del Estado de Yucatán en 2023.</abstract>
+  <keywords vocabulary="Buscar claves">
+    <keyword>cenotes</keyword>
+    <keyword>ZMM</keyword>
+    <keyword>patrimonio natural</keyword>
+    <keyword>agua subterránea</keyword>
+    <keyword>geología kárstica</keyword>
+  </keywords>
+  <links>
+    <link description="" name="" size="" url="file://" type="Local Area Network" mimeType="" format=""/>
+  </links>
+  <dates/>
+  <fees></fees>
+  <rights>Secretaría de Desarrollo Sustentable (SDS) (2023)</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["WGS 84 / UTM zone 16N",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 16N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-87,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Navigation and medium accuracy spatial referencing."],AREA["Between 90°W and 84°W, northern hemisphere between equator and 84°N, onshore and offshore. Belize. Canada - Manitoba; Nunavut; Ontario. Costa Rica. Cuba. Ecuador - Galapagos. El Salvador. Guatemala. Honduras. Mexico. Nicaragua. United States (USA)."],BBOX[0,-90,84,-84]],ID["EPSG",32616]]</wkt>
+      <proj4>+proj=utm +zone=16 +datum=WGS84 +units=m +no_defs</proj4>
+      <srsid>3100</srsid>
+      <srid>32616</srid>
+      <authid>EPSG:32616</authid>
+      <description>WGS 84 / UTM zone 16N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial crs="EPSG:32616" maxx="-89.27428299999999695" minz="0" maxz="0" dimensions="2" minx="-90.2701940000000036" miny="20.70332900000000009" maxy="21.32951299999999861"/>
+  </extent>
+</qgis>
